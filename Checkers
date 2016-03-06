@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title TEST</title>
+
+
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script src="movements.js"></script>
+<link rel="stylesheet" type="text/css" href="background.css">
+
+<script>
+$( document ).ready(function() {
+  onReady();
+});
+</script>
+
+
+</head>
+<body>
+
+<h1>Checkers game</h1>
+<p>Please select your color</p>
+
+<!-- <div id="board" class="table-board"></div> -->
+
+<select>
+  <option value=""></option>
+  <option value="cream">Cream</option>
+  <option value="blue">Blue</option>
+</select>
+<br></br>
+
+<!-- <script language ="javascript">
+$.(document).ready(function() { -->
+<div class="wrap">
+  <div class="board">
+
+  </div>
+</div>
+<!-- });
+</script> -->
+
+</body>
+</html>
